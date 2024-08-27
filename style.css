@@ -1,0 +1,279 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #000;
+}
+.main {
+  background-image: url("assets/IMG_NETFLIX.jpg");
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  height: 90vh;
+  position: relative;
+}
+.main .fex{
+margin: 3px;
+}
+.main .box {
+  position: absolute;
+  top: 0;
+  height: 90vh;
+  width: 100%;
+  opacity: 0.63;
+  background-color: black;
+}
+nav {
+  max-width: 60vw;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+nav img {
+  color: red;
+  width: 143px;
+  padding: 19px 0px 1px;
+  position: relative;
+  z-index: 10;
+}
+nav button {
+  position: relative;
+  z-index: 10;
+}
+.hero {
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: calc(100% - 100px);
+  color: white;
+  position: relative;
+  size: 48px;
+  gap: 20px;
+  font-family: Helvetica Neue, sans-serif;
+}
+.hero > :first-child {
+  text-align: center;
+  font-weight: 900;
+  font-size: 48px;
+}
+.hero > :nth-child(2) {
+  text-align: center;
+  font-weight: 400;
+  font-size: 28px;
+}
+.hero > :nth-child(3) {
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+}
+.seperation {
+  background-color: rgb(35, 32, 32, 1);
+  height: 6px;
+  z-index: 10;
+}
+.btn {
+  padding: 3px 8px;
+  font-weight: 400;
+  color: white;
+  border: 1px solid white;
+  background-color: rgba(139, 135, 135, 0.008);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.btn-red {
+  padding: 20px 26px;
+  margin: 3px;
+  border-radius: 3px;
+  font-weight: 700;
+  border: rgba(0, 0, 0, 0.1);
+  font-size: 25px;
+  background-color: red;
+  color: white;
+}
+.btn-red-sm {
+  border: rgba(0, 0, 0, 0.1);
+  font-weight: 700;
+  font-size: 15px;
+  color: aliceblue;
+  padding: 9px 15px;
+  border-radius: 8px;
+  background-color: red;
+}
+
+.main input {
+  padding: 24px 126px 24px 19px;
+  border-radius: 4px;
+  font-weight: 900;
+  color: white;
+  font-size: 16px;
+  background-color: rgba(22, 22, 22, 0.3);
+  border: 1px solid rgba(139, 135, 135, 0.5);
+}
+.first {
+  align-items: center;
+  display: flex;
+  padding-bottom: 100px;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+}
+@media screen and (max-width: 1300px) {
+  .first
+  {
+    flex-wrap: wrap;
+  }
+  .secimg1 img {
+
+    width: 305px;
+    
+    
+  }
+  .secimg1 video {
+    width: 305px;
+   
+  }
+}
+.secimg1 {
+  position: relative;
+}
+.secimg1 img {
+
+  width: 555px;
+  position: relative;
+  z-index: 10;
+
+}
+.secimg1 video {
+  width: 400px;
+  position: absolute;
+  top: 51px;
+  right: 0px;
+}
+section.first > div {
+  display: flex;
+  padding: 34px 0;
+  flex-direction: column;
+}
+
+section.first > div :nth-child(1) {
+  font-weight: 900;
+  font-size: 48px;
+}
+section.first > div :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+}
+.secimg1 img {
+  width: 30vw;
+  position: relative;
+  z-index: 10;
+  padding-top: 10px;
+}
+.secimg3 img {
+  z-index: 10;
+}
+.secimg3 video {
+  width: 391px;
+  position: absolute;
+  padding: 54px 119px;
+}
+
+.secimg4 img {
+  width: 580px;
+  padding: 41px 1px 30px 0px;
+}
+
+.feq {
+  padding: 34px;
+  background: black;
+  color: white;
+}
+.feq h1{
+  font-weight: 900;
+  font-size: 48px;
+  text-align: center;
+}
+.feqbox:hover {
+  background-color:#414141;;
+  
+}
+
+.feqbox {
+  transition: all 0.3s ease-out;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  background-color:#2d2d2d;
+  margin: 30px auto;
+  max-width: 70vw;
+  cursor: pointer;
+}
+footer{
+  color: white;
+  padding: 34px;
+    max-width: 60vw;
+    margin: auto;
+}
+
+
+footer .questions{
+  padding: 34px 0px;
+}
+
+.footer a{
+  font-size: 14px;
+  color: white;
+}
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  
+}
+@media screen and (max-width: 1300px) {
+  .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    
+  }
+}
+.footer-item
+{
+  font-size: 14px;
+  font-weight: 400px;
+  gap: 14px;
+  display: flex;
+  /* margin: 20px; */
+  flex-direction: column;
+
+}
+
+.engl :nth-child(1)
+{
+  padding: 10px;
+}
+.netflix{
+  margin: 40px -2px;
+  
+color: rgba(255, 255, 255, 0.456)
+}
+
+
+.engl{
+  padding: 4px 8px 6px;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+  margin-top: 50px;
+  width: 100px;
+}
