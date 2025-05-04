@@ -8,10 +8,10 @@ Home page with featured movies/shows banner
 Multiple rows of movie thumbnails (like Trending, Top Rated, etc.)
 Hover effects on movie posters
 Responsive design for mobile, tablet, and desktop
-Search bar (optional — can be made functional with JavaScript filtering)
+Search bar 
 Technologies Used:
 HTML5 for structure
-CSS3 (and optionally Flexbox/Grid) for styling and layout
+CSS3  for styling and layout
 
 Goal:
 Improve frontend web development skills
